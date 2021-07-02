@@ -1,13 +1,9 @@
 use postgres::types::{Json, Type};
-<<<<<<< HEAD
 use postgres_protocol::escape::escape_identifier;
-=======
->>>>>>> ee5ad2a (Fix SQL injection at function source tiles url)
 use serde::{Deserialize, Serialize};
 use std::collections::HashMap;
 use std::io;
 use tilejson::{TileJSON, TileJSONBuilder};
-use postgres_protocol::escape::escape_identifier;
 
 use crate::db::Connection;
 use crate::source::{Query, Source, Tile, Xyz};
